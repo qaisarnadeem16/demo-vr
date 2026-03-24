@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="2048" viewBox="0 0 4096 2048">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42394d"/>
+      <stop offset="42%" stop-color="#6d5477"/>
+      <stop offset="100%" stop-color="#dbc7b4"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6d5b4d"/>
+      <stop offset="100%" stop-color="#201814"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="18%" r="44%">
+      <stop offset="0%" stop-color="#fff7ea" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#fff7ea" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="4096" height="2048" fill="url(#wall)"/>
+  <ellipse cx="2048" cy="430" rx="1550" ry="380" fill="url(#glow)"/>
+  <rect y="1190" width="4096" height="858" fill="url(#floor)"/>
+  <g fill="#2c2233" opacity="0.42">
+    <rect x="0" y="900" width="4096" height="110"/>
+    <rect x="0" y="1080" width="4096" height="70"/>
+  </g>
+  <g>
+    <rect x="180" y="420" width="420" height="440" rx="22" fill="#f6ead8"/>
+    <rect x="928" y="360" width="420" height="440" rx="22" fill="#f3d6c4"/>
+    <rect x="1676" y="300" width="420" height="440" rx="22" fill="#d9f0f0"/>
+    <rect x="2424" y="360" width="420" height="440" rx="22" fill="#f2e0ff"/>
+    <rect x="3172" y="420" width="420" height="440" rx="22" fill="#ffefbf"/>
+    <rect x="3920" y="420" width="420" height="440" rx="22" fill="#f6ead8"/>
+  </g>
+  <g fill="#1a141f" opacity="0.7">
+    <rect x="280" y="520" width="220" height="240" rx="12"/>
+    <rect x="1028" y="460" width="220" height="240" rx="12"/>
+    <rect x="1776" y="400" width="220" height="240" rx="12"/>
+    <rect x="2524" y="460" width="220" height="240" rx="12"/>
+    <rect x="3272" y="520" width="220" height="240" rx="12"/>
+    <rect x="4020" y="520" width="220" height="240" rx="12"/>
+  </g>
+  <g fill="#f9f4ee" opacity="0.18">
+    <ellipse cx="420" cy="1420" rx="280" ry="50"/>
+    <ellipse cx="1210" cy="1540" rx="260" ry="46"/>
+    <ellipse cx="2048" cy="1620" rx="340" ry="60"/>
+    <ellipse cx="2886" cy="1540" rx="260" ry="46"/>
+    <ellipse cx="3676" cy="1420" rx="280" ry="50"/>
+  </g>
+  <g fill="none" stroke="#f8d07c" stroke-width="18" opacity="0.45">
+    <path d="M-100 240 C 420 360 900 360 1420 240 S 2460 120 2980 240 S 4020 360 4540 240"/>
+    <path d="M-100 260 C 420 380 900 380 1420 260 S 2460 140 2980 260 S 4020 380 4540 260"/>
+  </g>
+</svg>
